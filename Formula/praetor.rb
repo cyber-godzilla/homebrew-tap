@@ -11,7 +11,7 @@ class Praetor < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.15/praetor_0.0.15_darwin_amd64.tar.gz"
-      sha256 "18d5b5090497e037753d7e8a63fb07b568dca8f338afbf49ba8ad32637eb2999"
+      sha256 "700bf3ad1fb97a9562f3d43749428c7665dcfa21ac7d846e0c642d62032bdb68"
 
       define_method(:install) do
         bin.install "praetor"
@@ -19,7 +19,7 @@ class Praetor < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.15/praetor_0.0.15_darwin_arm64.tar.gz"
-      sha256 "6eb468e9462e2101fec7c91770c4245dc40b1008e336602548cbe1b672f99f16"
+      sha256 "c4f8272f836cfb52e8f3ff616aa9cc17cbc46220ada2525c52534f967cfb2869"
 
       define_method(:install) do
         bin.install "praetor"
@@ -30,14 +30,14 @@ class Praetor < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.15/praetor_0.0.15_linux_amd64.tar.gz"
-      sha256 "1a0e73628010b8e0bc64f064a1e863af9cb3e0a6aa6b79d4a94c506a445405cc"
+      sha256 "8be945ac00c5fbe2acda3a62a286fd253a9b9915397507daf88b6d7de1c39002"
       define_method(:install) do
         bin.install "praetor"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.15/praetor_0.0.15_linux_arm64.tar.gz"
-      sha256 "84270be6aca11ad4d01eeaf6937be3e4ea9030e13158077c137bfe44f5790788"
+      sha256 "d1a30e8a3b200b261cf691e531372ea4d8ad6a657d08755f929ad7a6f35be4b3"
       define_method(:install) do
         bin.install "praetor"
       end
