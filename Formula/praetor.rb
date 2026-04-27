@@ -5,21 +5,21 @@
 class Praetor < Formula
   desc "Terminal-based game client for The Eternal City"
   homepage "https://github.com/cyber-godzilla/praetor"
-  version "0.0.15"
+  version "0.0.16"
   license "GPL-3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.15/praetor_0.0.15_darwin_amd64.tar.gz"
-      sha256 "a5fa484d1cdd82fedccfad8c28e4bac493131faacc5a307b16e8a1c0a471b17d"
+      url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.16/praetor_0.0.16_darwin_amd64.tar.gz"
+      sha256 "b52f0373bff62ad96be6691d5551a5693236ebc950a6e36dc909587fdb4c0687"
 
       define_method(:install) do
         bin.install "praetor"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.15/praetor_0.0.15_darwin_arm64.tar.gz"
-      sha256 "adfb2fbe50e63d118ddc5d21ee55755d1736e562b63391bc8e1b46aaf571126b"
+      url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.16/praetor_0.0.16_darwin_arm64.tar.gz"
+      sha256 "71ff767c9983324f915ced540ea9a501eb3338789026fc720f3c673e4f05c227"
 
       define_method(:install) do
         bin.install "praetor"
@@ -29,15 +29,15 @@ class Praetor < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.15/praetor_0.0.15_linux_amd64.tar.gz"
-      sha256 "84bcfce24cb423b2fd6378cc981075ab76cced1af40183f537be49e5d72cefa7"
+      url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.16/praetor_0.0.16_linux_amd64.tar.gz"
+      sha256 "ee9562da8def37261d3bbab0d46882094db4187c8b2bc7e2b874d18214c022ff"
       define_method(:install) do
         bin.install "praetor"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.15/praetor_0.0.15_linux_arm64.tar.gz"
-      sha256 "d4ede1e23c606ae3a656c8ef338f4f6a90c2cb71e93ebf5c641edd0af2da9f2c"
+      url "https://github.com/cyber-godzilla/praetor/releases/download/v0.0.16/praetor_0.0.16_linux_arm64.tar.gz"
+      sha256 "9f605b62bca9d6d6c03326cf96eb278549085c5a6030c5ab7ee42c6286585dc8"
       define_method(:install) do
         bin.install "praetor"
       end
