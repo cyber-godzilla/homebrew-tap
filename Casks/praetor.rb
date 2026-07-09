@@ -3,8 +3,8 @@
 # Rendered from this template by packaging/homebrew/render.sh and pushed to
 # cyber-godzilla/homebrew-tap (Casks/praetor.rb).
 cask "praetor" do
-  version "0.2.0"
-  sha256 "35a29f990cac3becd845a24de6a295c2fd3c811fe0544e6228cb1d5447e59a36"
+  version "0.2.1"
+  sha256 "0497e7b22f9ca05324c5d7e2e7b5fb594528fd38036daee5430bd78034eb9c92"
 
   url "https://github.com/cyber-godzilla/praetor/releases/download/v#{version}/Praetor_#{version}_darwin_universal.zip"
   name "Praetor"
