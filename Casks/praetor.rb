@@ -4,7 +4,7 @@
 # cyber-godzilla/homebrew-tap (Casks/praetor.rb).
 cask "praetor" do
   version "0.4.6"
-  sha256 "1d09345d955c34a533bfbbf4f1728b5434a6710162d63f1b2e1dfd827183f95c"
+  sha256 "a3d7d3d2718b88c7be32c0acb46ff3ff4953293af49a0fa1662507ba2e589be7"
 
   url "https://github.com/cyber-godzilla/praetor/releases/download/v#{version}/Praetor_#{version}_darwin_universal.zip"
   name "Praetor"

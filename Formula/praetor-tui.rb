@@ -10,11 +10,11 @@ class PraetorTui < Formula
   on_macos do
     on_arm do
       url "https://github.com/cyber-godzilla/praetor/releases/download/v#{version}/praetor-tui_#{version}_darwin_arm64.tar.gz"
-      sha256 "e2500fa554a8e7b95d575ee5892440bc26f1b31937b72ba348625dc9853670e0"
+      sha256 "7e4081359767f12b31b91808b6ff38ba51b9cb498976f92b0b53768ea6bc0c02"
     end
     on_intel do
       url "https://github.com/cyber-godzilla/praetor/releases/download/v#{version}/praetor-tui_#{version}_darwin_amd64.tar.gz"
-      sha256 "33c1e08e140730625dba5dd40ee6744c0f328f24c0bfaa054380068bf6d86c8a"
+      sha256 "3052b7dd9e007b97a65b5b0c59261af916177d6eaf4ab6af773c941778e96529"
     end
   end
 
