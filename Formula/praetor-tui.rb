@@ -4,17 +4,17 @@
 class PraetorTui < Formula
   desc "Terminal client for The Eternal City"
   homepage "https://github.com/cyber-godzilla/praetor"
-  version "0.4.9"
+  version "0.4.10"
   license "GPL-3.0"
 
   on_macos do
     on_arm do
       url "https://github.com/cyber-godzilla/praetor/releases/download/v#{version}/praetor-tui_#{version}_darwin_arm64.tar.gz"
-      sha256 "739e6462cef30a2a2299582d4d9b5a992a846a848bb8411647e8fd98d632b288"
+      sha256 "7a40dbce648a30f7359c679b6314e8af3d2f59429ceb83efb55bb96fbf4a6363"
     end
     on_intel do
       url "https://github.com/cyber-godzilla/praetor/releases/download/v#{version}/praetor-tui_#{version}_darwin_amd64.tar.gz"
-      sha256 "b4efb81607fba29692757364c5ead6a2d8354f0116ba92e7db5f11eeb146c5bd"
+      sha256 "6de1dca1565bbe14f7e3a0baf47b1fae6f3aa249807fd9002236aaa54a17dc12"
     end
   end
 
